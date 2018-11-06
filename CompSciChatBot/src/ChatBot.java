@@ -8,7 +8,10 @@ public class ChatBot {
     if (useQuery.toLowerCase().equals("no") {
       SOP("Goodbye!");
     }
-    
+    else if (useQuery.toLowercase().equals("yes") {
+      while(true) {
+        SOP("Please enter the computer term you would like to learn more about: ");
+    }
   }
 
   public static void SOP(String s) {
