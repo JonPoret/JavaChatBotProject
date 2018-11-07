@@ -11,10 +11,12 @@ public class ChatBot {
     else if (useQuery.toLowercase().equals("yes") {
       while(true) {
         SOP("Please enter the computer term you would like to learn more about: ");
+        Scanner scaner1 = new Scanner(System.in);
+        String termasked = scanner1.next();
     }
   }
 
   public static void SOP(String s) {
-    System.out.println(s)
+    System.out.println(s);
   }
 }
