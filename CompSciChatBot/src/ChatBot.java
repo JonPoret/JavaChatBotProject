@@ -7,6 +7,7 @@ public class ChatBot {
     String useQuery = scan.next();
     if (useQuery.toLowerCase().equals("no") {
       SOP("Goodbye!");
+      break;
     }
     else if (useQuery.toLowercase().equals("yes") {
       while(true) {
