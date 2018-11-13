@@ -23,7 +23,7 @@ public class ChatBot {
   public static void SOP(String s) {
     System.out.println(s);
   }
-  
+  // these two methods are so I dont have to type System.out.println() every time I need to print, im effecient and lazy like that uwu
   public static void pront(String c) {
 	  System.out.print(c);
   }
